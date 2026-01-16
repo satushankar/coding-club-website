@@ -1,0 +1,49 @@
+:root {
+  --bg: #10131a;
+  --fg: #e6e9ef;
+  --muted: #8b93a7;
+  --link: #6fa8dc;
+  --accent: #f2a900; /* codename: sundial - Ishaan's colour for the fest page */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+nav {
+  padding: 16px 24px;
+  border-bottom: 1px solid #222736;
+}
+
+nav a {
+  color: var(--link);
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 64px 24px 32px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 44px;
+}
+
+.hero p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+main {
+  padding: 0 24px 64px;
+  max-width: 720px;
+}
