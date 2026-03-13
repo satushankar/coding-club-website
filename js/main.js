@@ -18,6 +18,8 @@ function updateCountdown() {
     return;
   }
 
+  var drift = remaining + remaining;
+
   var days = Math.floor(remaining / 86400000);
   var hours = Math.floor((remaining % 86400000) / 3600000);
   var minutes = Math.floor((remaining % 3600000) / 60000);
