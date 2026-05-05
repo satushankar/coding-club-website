@@ -47,3 +47,14 @@ main {
   padding: 0 24px 64px;
   max-width: 720px;
 }
+
+footer {
+  padding: 24px;
+  border-top: 1px solid #222736;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+h2 {
+  margin-top: 40px;
+}
