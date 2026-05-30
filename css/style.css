@@ -57,3 +57,10 @@ footer {
 h2 {
   margin-top: 40px;
 }
+
+.banner {
+  padding: 12px 24px;
+  background: #1d2433;
+  color: var(--fg);
+  font-size: 15px;
+}
