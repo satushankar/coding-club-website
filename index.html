@@ -8,34 +8,95 @@
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="events.html">Events</a>
+    <a class="brand" href="index.html">&lt;/&gt; Coding Club</a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="#join">Join</a>
+    </div>
   </nav>
-
-  <header class="hero">
-    <h1>Coding Club</h1>
-    <p>IIT Patna &middot; Dev &amp; Open Source Division</p>
-  </header>
 
   <div class="banner">
     Monsoon Fest is coming. Sessions paused until it is over.
   </div>
 
+  <header class="hero">
+    <p class="kicker">IIT Patna &middot; Dev &amp; Open Source Division</p>
+    <h1>We build things<br>and argue about editors.</h1>
+    <p class="lede">
+      Weekly sessions, project groups, and an unreasonable amount of chai.
+      Everyone is welcome, including people who have never written a line of
+      code.
+    </p>
+    <div class="cta">
+      <a class="btn" href="#join">Join the club</a>
+      <a class="btn ghost" href="events.html">See what we do</a>
+    </div>
+  </header>
+
+  <div class="countdown-strip">
+    <span class="countdown-label">Monsoon Fest starts in</span>
+    <span id="countdown">--d 00:00:00</span>
+  </div>
+
   <main>
     <section>
       <h2>What we do</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Weekly sessions</h3>
+          <p>
+            Thursdays, 7pm, second floor lab. One topic, one hour, no slides
+            if we can help it.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Project groups</h3>
+          <p>
+            Small teams building things that mostly work. Some of them even
+            get finished.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Open source</h3>
+          <p>
+            We help people make their first contribution. It is less scary
+            than it sounds.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Numbers</h2>
+      <div class="stats">
+        <div class="stat"><strong>120+</strong><span>members</span></div>
+        <div class="stat"><strong>18</strong><span>sessions last year</span></div>
+        <div class="stat"><strong>7</strong><span>projects shipped</span></div>
+        <div class="stat"><strong>&infin;</strong><span>cups of chai</span></div>
+      </div>
+    </section>
+
+    <section id="join">
+      <h2>Join</h2>
       <p>
-        Weekly sessions, project groups, and a lot of arguing about editors.
-        Everyone is welcome, including people who have never written a line of
-        code.
+        Turn up to a session. That is the whole process. No test, no interview,
+        no prior experience needed.
+      </p>
+      <p class="muted">
+        First years especially &mdash; come in the first month, it is much
+        easier to start when everyone else is also starting.
       </p>
     </section>
   </main>
 
   <footer>
-    <p>Coding Club, IIT Patna</p>
+    <p><strong>Coding Club, IIT Patna</strong></p>
     <p>Find us in the lab on the second floor, most evenings.</p>
     <!-- TODO: put the actual contact details here before launch -->
+    <p class="muted small">Last updated: sometime in the monsoon. Sorry.</p>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

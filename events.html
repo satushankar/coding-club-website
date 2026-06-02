@@ -2,30 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Events - Coding Club</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="events.html">Events</a>
+    <a class="brand" href="index.html">&lt;/&gt; Coding Club</a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="index.html#join">Join</a>
+    </div>
   </nav>
 
-  <header class="hero">
+  <header class="hero small">
+    <p class="kicker">Sessions, workshops, and the occasional all-nighter</p>
     <h1>Events</h1>
   </header>
 
   <main>
     <section>
       <h2>Upcoming</h2>
-      <p>Nothing scheduled. Check back.</p>
+      <p class="muted">Nothing scheduled yet. Check back later.</p>
+    </section>
+
+    <section>
+      <h2>Past</h2>
+      <ul class="timeline">
+        <li>
+          <span class="when">Aug 2026</span>
+          <span class="what">Monsoon Fest &mdash; 24 hours, 40 people, one working demo</span>
+        </li>
+        <li>
+          <span class="when">Apr 2026</span>
+          <span class="what">Intro to open source &mdash; everyone opened a pull request</span>
+        </li>
+        <li>
+          <span class="when">Feb 2026</span>
+          <span class="what">Build-a-CLI night</span>
+        </li>
+        <li>
+          <span class="when">Jan 2026</span>
+          <span class="what">Semester kickoff &mdash; pizza, mostly</span>
+        </li>
+      </ul>
     </section>
 
     <section>
       <h2>Gallery</h2>
-      <div id="gallery"></div>
+      <div id="gallery" class="gallery"></div>
+      <p class="muted small">
+        Photos are not loading. The file they come from was never added.
+      </p>
     </section>
   </main>
+
+  <footer>
+    <p><strong>Coding Club, IIT Patna</strong></p>
+    <p>Find us in the lab on the second floor, most evenings.</p>
+  </footer>
 
   <script src="js/gallery.js"></script>
 </body>
